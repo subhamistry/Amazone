@@ -193,8 +193,9 @@ span {
         color: #007185;
     } 
      /** footer **/ 
-     footer {
+     .footer {
         margin-top: 1rem;
+        padding:-y;
      }
       .footer-panel1 {
         background-color: #37475a;
@@ -204,7 +205,7 @@ span {
         justify-content: center;
         align-items: center;
         font-size: 0.85rem;
-
+        
       } 
       .footer-panel2 { 
         background-color: #222f3d;
@@ -212,9 +213,15 @@ span {
         height: 300px;
         display: flex;
         justify-content: space-evenly;
-        padding: 25px;
+        
+       
 
+        
       } 
+
+      ul {
+           margin-top: 20px;
+      }
 
       ul a {
         display: block;
